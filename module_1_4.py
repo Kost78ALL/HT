@@ -1,0 +1,8 @@
+my_string=input("Введите произвольный текст -")
+print('Исходный текст:',my_string)
+print('Всего символов:', len(my_string))
+print(my_string.upper(),"-строка в верхнем регистре")
+print(my_string.lower(), "-строка внижнем регистре")
+my_string=my_string.replace(" ","")
+print(my_string[0],'первая буква')
+print(my_string[-1],'последняя буква')
